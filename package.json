@@ -1,0 +1,23 @@
+{
+  "name": "3d_printingshop",
+  "version": "1.0.0",
+  "description": "This is a web app where clients can purchese models that are 3D printed",
+  "homepage": "https://github.com/Rome-1313/3D_PrintingShop#readme",
+  "bugs": {
+    "url": "https://github.com/Rome-1313/3D_PrintingShop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rome-1313/3D_PrintingShop.git"
+  },
+  "license": "ISC",
+  "author": "Jeremy Hiers",
+  "type": "module",
+  "main": "./dist/home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0"
+  }
+}

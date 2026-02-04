@@ -1,0 +1,17 @@
+html{
+    background-color: #92A8D1;
+}
+header{
+    background:repeating-linear-gradient(#1c99d8,#5c5ce9);
+    border-bottom:1px solid #e6e9ee;
+    padding:12px 20px;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    
+}
+.brand{
+    font-size:28px;
+    font-weight:700;
+    color:#000000
+}

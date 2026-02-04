@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Romeys 3D Shop</title>
+        <link src="../dist/scripts/home.js" rel="script" />
+        <link href="../dist/styles/home.css" rel="stylesheet" />
+    </head>
+    <header>
+        <h1 class="brand">Welcome to Romeys 3D Shop</h1>
+        <div class="search"><input id="search" type="search" placeholder="Search models, filaments, accessories..." /></div>
+        <button id="view-cart">Cart (<span id="cart-count">0</span>)</button>
+    </header>
+     <main>
+    <section class="products" id="products"></section>
+
+    <aside class="cart" id="cart" style="display:none">
+      <h3>Your Cart</h3>
+      <div class="cart-list" id="cart-list"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div class="muted">Total:</div>
+        <div class="price" id="cart-total">$0.00</div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px">
+        <button id="checkout">Checkout</button>
+        <button id="clear" class="link">Clear</button>
+      </div>
+    </aside>
+  </main>
+</html>
